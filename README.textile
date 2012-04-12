@@ -1,10 +1,10 @@
-This is a minimal example of using the sbt-cxf plugin (https://github.com/arktekk/sbt-cxf). In order to run this you
-should install sbt version 0.11 or higher (see https://github.com/harrah/xsbt).
+This is a minimal example of using the "sbt-cxf plugin":https://github.com/arktekk/sbt-cxf. In order to run this you
+should install "sbt":https://github.com/harrah/xsbt version 0.11 or higher.
 
 h2. Service Used
 
-The test service used is an extremely simple ping-pong service found at http://www.service-repository.com/service/overview/-1878848421.
-Source of wsdl-file resides at http://www-inf.int-evry.fr/cours/WebServices/TP_BPEL/files/PingPong.wsdl.
+The test service used is an extremely simple "ping-pong service":http://www.service-repository.com/service/overview/-1878848421.
+Source of "wsdl-file":http://www-inf.int-evry.fr/cours/WebServices/TP_BPEL/files/PingPong.wsdl.
 It will simply consume server time by repeating the messages you send it.
 
 h2. How To Run
