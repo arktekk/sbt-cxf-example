@@ -1,0 +1,18 @@
+This is a minimal example of using the sbt-cxf plugin (https://github.com/arktekk/sbt-cxf). In order to run this you
+should install sbt version 0.11 or higher (see https://github.com/arktekk/sbt-cxf).
+
+h2. Service Used
+
+The test service used is an extremely simple ping-pong service found at http://www.service-repository.com/service/overview/-1878848421.
+Source of wsdl-file resides at http://www-inf.int-evry.fr/cours/WebServices/TP_BPEL/files/PingPong.wsdl.
+It will simply consume server time by repeating the messages you send it.
+
+h2. How To Run
+
+The test example generates source from the downloaded wsdl-file and tests it from the Main.scala application.
+
+<pre>
+# sbt
+...
+> run
+</pre>
